@@ -1,0 +1,185 @@
+%================================================================================
+%%% NEWCOMMAND
+%================================================================================
+\newcommand{\DD}[1]                  {\ensuremath{\Delta{\!\mathinner{#1}}}}
+\newcommand{\Dd}[1]                  {\ensuremath{\delta{\!\mathinner{#1}}}}
+\newcommand{\SP}[2]                  {{#1}_{\subscriptfont{#2}}}
+\newcommand{\TBA}                    {\textbf{\textcolor{red}{...TBA...}}\xspace}
+\newcommand{\TBC}                    {\textbf{\textcolor{red}{...TBC...}}\xspace}
+\newcommand{\TBD}                    {\textbf{\textcolor{red}{...TBD...}}\xspace}
+\newcommand{\TBU}                    {\textbf{\textcolor{red}{...TBU...}}\xspace}
+\newcommand{\TBW}                    {\textbf{\textcolor{red}{...TBW...}}\xspace}
+\newcommand{\arrforw}                {\ensuremath{\Longrightarrow}}
+\newcommand{\av}[1]                  {\ensuremath{\langle{#1}\rangle}}
+
+%\newcommand{\az}                     {\linebreak[4]\xspace}
+\newcommand{\az}{%
+%\newcommand{\forcenl}{%
+  \unskip\space % ensure exactly one interword space at this position
+  \linebreak[4]%
+  \ignorespaces % ignore any spaces/newlines after \forcenl in the source
+}
+\newcommand{\forcenlspace}{%
+  \unskip\space
+  \ignorespaces
+}
+
+
+
+\newcommand{\significance}{\ensuremath{\mathscr{S}_{bn}}}
+
+\newcommand{\bckgr}                  {\ensuremath{\mathcal{B}}}
+\newcommand{\bn}                     {\ensuremath{(\bckgr + \noise)}}
+\newcommand{\cffour}                 {\ensuremath{\mathrm{CF_4}}\xspace}
+\newcommand{\cfourfeigtho}           {\ensuremath{\mathrm{C_4 F_{8}O}}\xspace}
+\newcommand{\cfourften}              {\ensuremath{\mathrm{C_4 F_{10}}}\xspace}
+\newcommand{\cfourhten}              {\ensuremath{\mathrm{C_4 H_{10}}}\xspace}
+\newcommand{\chf}                    {\ensuremath{\textsf{CHF}}\xspace}
+\newcommand{\cotwo}                  {\ensuremath{\mathrm{CO_2}}\xspace}
+\newcommand{\csixffouteen}           {\ensuremath{\mathrm{C_6 F_{14}}}\xspace}
+\newcommand{\cthreefeigth}           {\ensuremath{\mathrm{C_3 F_{8}}}\xspace}
+\newcommand{\deadt}                  {\ensuremath{\tau}\xspace}
+\newcommand{\diffl}[1]               {\ensuremath{d\!#1}}
+\newcommand{\displin}[1] {{\textcolor{blue}{#1}}\xspace}
+\newcommand{\displ}[1]   {{\textcolor{blue}{\begin{center}\vspace{-0.5\baselineskip}\fbox{#1}\vspace{+0.0\baselineskip}\end{center}}}\xspace}
+\newcommand{\eps}                    {\ensuremath{\varepsilon}\xspace}
+\newcommand{\factlum}                {\ensuremath{f_{\mathcal{L}}}}
+\newcommand{\fare}                   {\textcolor{red}{\Large\textbf{\ensuremath{\rightarrow}}\}}\xspace}
+\newcommand{\fluence}                {\ensuremath{\mathcal{F}}\xspace}
+\newcommand{\hits}                   {\ensuremath{\mathcal{H}}}
+\newcommand{\lambdaMaxDef}           {\mbox{700 nm}}
+\newcommand{\lambdaMinDef}           {\mbox{200 nm}}
+\newcommand{\lsfour}                 {\mbox{\texttt{LS4}}\xspace}
+\newcommand{\lsthreee}               {\mbox{\texttt{LS3-E}}\xspace}
+\newcommand{\lsthree}                {\mbox{\texttt{LS3}}\xspace}
+\newcommand{\lstwo}                  {\mbox{\texttt{LS2}}\xspace}
+\newcommand{\luminstunit}            {\um{cm^{-2}s^{-1}}\xspace}
+\newcommand{\lumintunit}             {\ensuremath{\text{fb}^{-1}}\xspace}%{\um{fb^{-1}}\xspace}
+\newcommand{\mapmt}                  {\mbox{\texttt{MAPMT}}\xspace}
+
+
+
+\newcommand{\mcp}                    {\mbox{\texttt{MCP-PMT}}\xspace}
+\newcommand{\mcps}                   {\mbox{{\mcp}s}\xspace}
+
+\newcommand{\mppc}                   {\mbox{\texttt{MPPC}}\xspace}%\newcommand{\sipm}{G-APD\xspace}
+\newcommand{\nZero}                  {\ensuremath{N_0\xspace}}
+
+
+
+\newcommand{\neqsqcm}   {\ensuremath{\text{1-MeV-$\text{n}_\text{eq}$}/\text{cm}^2\xspace}}%{\um{\text{1~MeV~neq}/cm^2}\xspace}
+
+\newcommand{\HEHsqcm}                        {\ensuremath{\text{HEH}/\text{cm}^2\xspace}}%\newcommand{\HEHsqcm}                {\um{\text{HEH}/cm^2}\xspace}
+
+
+
+\newcommand{\noise}                  {\ensuremath{\mathcal{N}}}
+\newcommand{\numc}                   {\ensuremath{\mathcal{S}_{\!\gamma}}\xspace}
+\newcommand{\occupa}                 {\ensuremath{\mathcal{O}}\xspace}
+\newcommand{\pMax}                   {\ensuremath{\SP{p}{MAX}}}
+\newcommand{\pMin}                   {\ensuremath{\SP{p}{MIN}}}
+\newcommand{\pang}[1]                {\ensuremath{\langle {#1}\rangle}}
+\newcommand{\pda}                    {\mbox{\texttt{PDA}}\xspace}
+\newcommand{\pde}                    {\mbox{\texttt{PDE}}\xspace}
+\newcommand{\pgra}[1]                {\ensuremath{\left\{{#1}\right\}}}
+\newcommand{\phic}                   {\ensuremath{\phi_{\!\!\:{\text{C}}}}\xspace}
+
+\newcommand{\pmt}                    {\mbox{\texttt{PMT}}\xspace}
+\newcommand{\pmts}                   {\mbox{{\pmt}s}\xspace}
+
+
+\newcommand{\pqua}[1]                {\ensuremath{\left[ {#1}\right]}}
+\newcommand{\pton}[1]                {\ensuremath{\left( #1\right)}}
+\newcommand{\rd}                     {\mbox{\texttt{R\&D}}\xspace}
+\newcommand{\remove}[1]              {\ifistoreview\alertColor{\st{#1}}\else #1\fi}
+\newcommand{\richoneh}               {\mbox{\texttt{RICH1-H}}\xspace}
+\newcommand{\richonel}               {\mbox{\texttt{RICH1-L}}\xspace}
+\newcommand{\richone}                {\mbox{\texttt{RICH1}}\xspace}
+\newcommand{\richtwoh}               {\mbox{\texttt{RICH2-H}}\xspace}
+\newcommand{\richtwol}               {\mbox{\texttt{RICH2-L}}\xspace}
+\newcommand{\richtwo}                {\mbox{\texttt{RICH2}}\xspace}
+\newcommand{\rich}                   {\mbox{\texttt{RICH}}\xspace}
+\newcommand{\runfive}                {\mbox{Run-5}\xspace}
+\newcommand{\runfour}                {\mbox{Run-4}\xspace}
+\newcommand{\runone}                 {\mbox{Run-1}\xspace}
+\newcommand{\runthree}               {\mbox{Run-3}\xspace}
+\newcommand{\runtwo}                 {\mbox{Run-2}\xspace}
+\newcommand{\scix}[1]                {\mbox{\ensuremath{10^{#1}}}}
+\newcommand{\sci}[2]                 {\mbox{\ensuremath{#1\!\cdot\! 10^{#2}}}}
+\newcommand{\setreviewsoff}          {\istoreviewfalse}
+\newcommand{\setreviewson}           {\istoreviewtrue}
+\newcommand{\sigmaBfi}               {{\sigma_{\text{Bfi}}^{(1)}}}
+\newcommand{\sigmaGammaOneH}         {{\sigma_{\gamma}^{(R1H)}}}% single photon R1-H
+\newcommand{\sigmaGammaOneL}         {{\sigma_{\gamma}^{(R1L)}}}% single photon R1-L
+\newcommand{\sigmaGammaTwo}          {{\sigma_{\gamma}^{(R2)}}}% single photon R2
+\newcommand{\sigmaGamma}             {{\sigma_{\gamma}}}% single photon R1-L
+\newcommand{\sigmachr}               {{\sigma_{\text{chr}}^{(1)}}}
+\newcommand{\sigmac}                 {{\sigma_{\thetac}^{(1)}}}
+\newcommand{\sigmafoc}               {{\sigma_{\text{foc}}^{(1)}}}
+\newcommand{\sigmamsc}               {{\sigma_{\text{msc}}^{(1)}}}
+\newcommand{\sigmapix}               {{\sigma_{\text{pix}}^{(1)}}}
+\newcommand{\sigmarec}               {{\sigma_{\text{rec}}^{(1)}}}
+\newcommand{\sigmaring}              {{\sigma_{\text{RING}}}}% ring uncertainty
+\newcommand{\sigmatotnosca}          {{\sigma_{\text{0}}^{(1)}}}
+\newcommand{\sigmatotscale}          {{\sigma_{\numc}^{(1)}}}
+\newcommand{\sigmatot}               {{\sigma_{\text{tot}}^{(1)}}}
+\newcommand{\sinsqc}                 {\ensuremath{\sin^2\!\thetac}\xspace}
+
+
+\newcommand{\sipm}                   {\mbox{\texttt{SiPM}}\xspace}%\newcommand{\sipm}{G-APD\xspace}
+\newcommand{\sipms}                  {\mbox{{\sipm}s}\xspace}
+
+
+
+\newcommand{\spada}                  {\mbox{\texttt{SPAD-A}}\xspace}%\newcommand{\sipm}{G-APD\xspace}
+\newcommand{\spad}                   {\mbox{\texttt{SPAD}}\xspace}%\newcommand{\sipm}{G-APD\xspace}
+\newcommand{\ssbn}                   {\ensuremath{\Sigma}}
+\newcommand{\subscriptfont}[1]       {\mathtt{#1}}
+\newcommand{\substitute}[2]          {\ifistoreview\remove{#1}~\add{#2}\else #1\fi}
+\newcommand{\themapmt}               {\mbox{\texttt{MAPMT22}}\xspace}
+\newcommand{\themppc}                {\mbox{\texttt{MPPCHPK}}\xspace}
+\newcommand{\thesipm}                {\mbox{\texttt{SIPMFBK}}\xspace}
+\newcommand{\thetaH}                 {\ensuremath{\Theta_H}\xspace}
+\newcommand{\thetaMax}               {\SP{\theta}{MAX}}
+\newcommand{\thetaV}                 {\ensuremath{\Theta_V}\xspace}
+\newcommand{\thetac}                 {\ensuremath{\theta_{\!\!\:{\text{C}}}}\xspace}
+\newcommand{\thetar}                 {\ensuremath{\theta_{\!\!\:{\text{R}}}}\xspace}
+\newcommand{\todohint}[2][]          {\todo[color=green!20, #1]{#2}}
+\newcommand{\todowarn}[2][]          {\todo[color=orange, #1]{#2}}
+\newcommand{\upgradeoneb}            {\mbox{LS3-E}\xspace}
+\newcommand{\upgradeoneshort}        {\mbox{Upg1}\xspace}
+\newcommand{\upgradeone}             {\mbox{Upgrade-I}\xspace}
+\newcommand{\upgradetwoshort}        {\mbox{Upg2}\xspace}
+\newcommand{\upgradetwo}             {\mbox{Upgrade-II}\xspace}
+\newcommand{\xhit}                   {\ensuremath{\bckgr + \noise }}
+\newcommand{\xycomment}[1]           {\ifthenelse{\boolean{full}}{\todowarn[inline]{#1}}{{}}}
+
+
+
+
+\newcommand{\hpd}                    {\mbox{\texttt{HPD}}\xspace}
+\newcommand{\hpds}                   {\mbox{{\hpd}s}\xspace}
+
+\newcommand{\HPKK} {{Hamamatsu~Photonics}\xspace}
+
+
+
+
+%--
+\newcommand{\um}[1]                {\unit[inter-unit-product = \ensuremath{{}\cdot{}}]{ #1}}
+%================================================================================
+%%% RENEWCOMMAND
+%================================================================================
+%\renewcommand{\div}                  {\divisionsymbol}%\let\origdiv\div
+\renewcommand{\mark}                 {\textcolor{red}{\Large\textbf{!}\ }\xspace}
+\renewcommand{\rd}                   {R\&D\xspace}
+\renewcommand{\sci}[2]               {\mbox{\ensuremath{ #1 \! \cdot \! 10^{#2}}}}
+%================================================================================
+%%% PROVIDECOMMAND
+%================================================================================
+\providecommand{\Celsius}            {\ensuremath{\,\mbox{}^\circ\!\mathrm{C}}\xspace}
+\providecommand{\lhcb}               {\mbox{\texttt{LHCb}}\xspace}
+\providecommand{\strong}[1]              {\textbf{#1}}
+%================================================================================
+%%%
+%================================================================================
